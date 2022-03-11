@@ -9,6 +9,8 @@ This is the lab resources for SUSTech EE346.
   git clone git@github.com:zhaojieting/Linefollowing.git
   
 ## 2. Catkin make the linefollowing package
+  cd ..
+  
   catkin_make
 
 ## 3. Launch the gazebo map
