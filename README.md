@@ -14,10 +14,10 @@ This is the lab resources for SUSTech EE346.
 ## 3. Launch the gazebo map
    source ~/catkin_ws/devel/setup.bash
    
-   roslaunch linefollowing line_following.launch
-## 4. Run linefollowing node
+   roslaunch linefollowing line_following.launch 
+## 4. Run linefollowing node( open a new terminal)
    
-   cd ~/catkin_ws      #Open a new terminal
+   cd ~/catkin_ws  
    
    source devel/setup.bash
    
