@@ -16,9 +16,8 @@ This is the lab resources for SUSTech EE346.
    
    roslaunch linefollowing line_following.launch
 ## 4. Run linefollowing node
-   #Open a new terminal
    
-   cd ~/catkin_ws
+   cd ~/catkin_ws      #Open a new terminal
    
    source devel/setup.bash
    
