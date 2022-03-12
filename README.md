@@ -1,6 +1,9 @@
 # Linefollowing
 This is the lab resources for SUSTech EE346.
 
+Reference: https://github.com/sinyeopgo/ROS-2-simulation
+
+https://www.youtube.com/watch?v=0FveGFwQruk
 # Usage
 
 ## 1. Clone the source code
