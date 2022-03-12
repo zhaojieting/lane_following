@@ -16,6 +16,9 @@ https://www.youtube.com/watch?v=0FveGFwQruk
   
   catkin_make
 
+## 3. Copy course models to ~/.gazebo/models
+  sudo cp -r ~/catkin_ws/src/Linefollowing/models/course  ~/.gazebo/models
+
 ## 3. Launch the gazebo map
    source ~/catkin_ws/devel/setup.bash
    
