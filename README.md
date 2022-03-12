@@ -9,7 +9,7 @@ https://www.youtube.com/watch?v=0FveGFwQruk
 ## 1. Clone the source code
   cd ~/catkin_ws/src
   
-  git clone git@github.com:zhaojieting/Linefollowing.git
+  git clone git@github.com:zhaojieting/linefollowing.git
   
 ## 2. Catkin make the linefollowing package
   cd ..
@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=0FveGFwQruk
   catkin_make
 
 ## 3. Copy course models to ~/.gazebo/models
-  sudo cp -r ~/catkin_ws/src/Linefollowing/models/course  ~/.gazebo/models
+  sudo cp -r ~/catkin_ws/src/linefollowing/models/course  ~/.gazebo/models
 
 ## 4. Launch the gazebo map
    source ~/catkin_ws/devel/setup.bash
@@ -31,4 +31,4 @@ https://www.youtube.com/watch?v=0FveGFwQruk
    
    rosrun linefollowing linefollowing
 
- ![image](https://github.com/zhaojieting/Linefollowing/blob/main/data/demo.png)
+ ![image](https://github.com/zhaojieting/linefollowing/blob/main/data/demo.png)
