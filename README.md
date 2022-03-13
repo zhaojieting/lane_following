@@ -1,4 +1,4 @@
-# Linefollowing
+# lane following
 This is the lab resources for SUSTech EE346.
 
 Reference: https://github.com/sinyeopgo/ROS-2-simulation
