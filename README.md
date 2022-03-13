@@ -17,7 +17,7 @@ https://www.youtube.com/watch?v=0FveGFwQruk
   catkin_make
 
 ## 3. Copy course models to ~/.gazebo/models
-   exprot GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
+   export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
    
 ## 4. Launch the gazebo map
    source ~/catkin_ws/devel/setup.bash
