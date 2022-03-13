@@ -1,12 +1,11 @@
 <launch>
-  <env name="GAZEBO_RESOURCE_PATH" value="$(find turtlebot3_gazebo)/models/autorace/ground_picture" />
 
   <arg name="x_pos" default="0.2"/>
   <arg name="y_pos" default="-1.700"/>
   <arg name="z_pos" default="0"/>  
 
   <include file="$(find gazebo_ros)/launch/empty_world.launch">
-    <arg name="world_name" value="$(find linefollowing)/worlds/linefollowing.world" />
+    <arg name="world_name" value="$(find lane_following)/worlds/lane_following.world" />
     <arg name="paused" value="false"/>
     <arg name="use_sim_time" value="true"/>
     <arg name="gui" value="true"/>
@@ -15,7 +14,7 @@
   </include>  
 
   <param name="robot_description" command="$(find xacro)/xacro --inorder $(find turtlebot3_description)/urdf/turtlebot3_burger_for_autorace_2020.urdf.xacro" />
-  <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model linefollowing -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
+  <node pkg="gazebo_ros" type="spawn_model" name="spawn_urdf" args="-urdf -model lane_following -x $(arg x_pos) -y $(arg y_pos) -z $(arg z_pos) -param robot_description" />
    
 
 </launch>

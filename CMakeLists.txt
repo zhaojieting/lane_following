@@ -1,8 +1,7 @@
 cmake_minimum_required(VERSION 2.8.3)
-project(linefollowing)
+project(lane_following)
 
 add_definitions(-std=c++11)
-set(OpenCV_DIR ${/home/test/Downloads/opencv-3.4.13}/share/OpenCV)
 
 ## Find catkin and any catkin packages
 find_package(catkin REQUIRED COMPONENTS cv_bridge roscpp rospy std_msgs genmsg geometry_msgs)
@@ -22,6 +21,6 @@ include_directories(include ${catkin_INCLUDE_DIRS})
 include_directories(${OpenCV_INCLUDE_DIRS})
 
 
-add_executable(linefollowing src/linefollowing.cpp)
-target_link_libraries(linefollowing ${catkin_LIBRARIES} ${OpenCV_LIBS})
-add_dependencies(linefollowing linefollowing_gencpp)
+add_executable(lane_following src/lane_following.cpp)
+target_link_libraries(lane_following ${catkin_LIBRARIES} ${OpenCV_LIBS})
+add_dependencies(lane_following lane_following_gencpp)
