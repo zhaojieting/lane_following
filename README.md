@@ -9,26 +9,26 @@ https://www.youtube.com/watch?v=0FveGFwQruk
 ## 1. Clone the source code
   cd ~/catkin_ws/src
   
-  git clone git@github.com:zhaojieting/linefollowing.git
+  git clone git@github.com:zhaojieting/lane_following.git
   
-## 2. Catkin make the linefollowing package
+## 2. Catkin make the lane following package
   cd ..
   
   catkin_make
 
 ## 3. Copy course models to ~/.gazebo/models
-  sudo mv ~/catkin_ws/models/course  ~/.gazebo/models/
+   exprot GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
    
 ## 4. Launch the gazebo map
    source ~/catkin_ws/devel/setup.bash
    
-   roslaunch linefollowing line_following.launch 
-## 5. Run linefollowing node( open a new terminal)
+   roslaunch lane_following lane_following.launch 
+## 5. Run lane following node( open a new terminal)
    
    cd ~/catkin_ws  
    
    source devel/setup.bash
    
-   rosrun linefollowing linefollowing
+   rosrun lane_following line_following
 
  ![image](https://github.com/zhaojieting/linefollowing/blob/main/data/demo.png)
