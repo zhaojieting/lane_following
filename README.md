@@ -29,6 +29,6 @@ https://www.youtube.com/watch?v=0FveGFwQruk
    
    source devel/setup.bash
    
-   rosrun lane_following line_following
+   rosrun lane_following lane_following
 
  ![image](https://github.com/zhaojieting/linefollowing/blob/main/data/demo.png)
