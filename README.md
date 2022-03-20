@@ -16,19 +16,30 @@ https://www.youtube.com/watch?v=0FveGFwQruk
   
   catkin_make
 
-## 3. Copy course models to ~/.gazebo/models
+## 3. Add course models
    export GAZEBO_MODEL_PATH=${GAZEBO_MODEL_PATH}:~/catkin_ws/src/lane_following/models
    
 ## 4. Launch the gazebo map
    source ~/catkin_ws/devel/setup.bash
    
    roslaunch lane_following lane_following.launch 
-## 5. Run lane following node( open a new terminal)
+## 5. Run lane following c++ node( open a new terminal)
    
    cd ~/catkin_ws  
    
    source devel/setup.bash
    
    rosrun lane_following lane_following
+## 6. Run lane following python node
+   
+   cd ~/catkin_ws/src/lane_following/scripts/
+   
+   chmod +x lane_following.py
+   
+   cd ~/catkin_ws
+   
+   source devel/setup.bash
+   
+   rosrun lane_following lane_following.py
 
  ![image](https://github.com/zhaojieting/linefollowing/blob/main/data/demo.png)
