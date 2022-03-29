@@ -19,7 +19,7 @@ This is the lab resources for SUSTech EE346.
 ## 4. Launch the gazebo map
    source ~/catkin_ws/devel/setup.bash
    
-   roslaunch lane_following lane_following.launch 
+   roslaunch lane_following race_track.launch 
 
 ## 5. Run lane following python node
    
