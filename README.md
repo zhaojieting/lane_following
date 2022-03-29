@@ -1,5 +1,9 @@
 # lane following
 This is the lab resources for SUSTech EE346.
+
+Reference: https://github.com/sinyeopgo/ROS-2-simulation
+
+https://www.youtube.com/watch?v=0FveGFwQruk
 # Usage
 
 ## 1. Clone the source code
@@ -19,8 +23,14 @@ This is the lab resources for SUSTech EE346.
    source ~/catkin_ws/devel/setup.bash
    
    roslaunch lane_following lane_following.launch 
-
-## 5. Run lane following python node
+## 5. Run lane following c++ node( open a new terminal)
+   
+   cd ~/catkin_ws  
+   
+   source devel/setup.bash
+   
+   rosrun lane_following lane_following
+## 6. Run lane following python node
    
    cd ~/catkin_ws/src/lane_following/scripts/
    

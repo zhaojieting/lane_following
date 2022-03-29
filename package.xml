@@ -2,7 +2,7 @@
 <package format="2">
   <name>lane_following</name>
   <version>0.0.0</version>
-  <description>The Line-Follower-TurtleBot package</description>
+  <description>The Lane-Follower-TurtleBot package</description>
 
   <!-- One maintainer tag required, multiple allowed, one person per tag -->
   <!-- Example:  -->

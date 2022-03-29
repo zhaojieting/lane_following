@@ -50,9 +50,9 @@ class Follower:
                     fpt_x = (cx1 + cx2)/2
                     fpt_y = (cy1 + cy2)/2 + 2*h/3
 
-                    cv2.circle(image, (cx1, cy1), 10, (0,0,255), -1)
-                    cv2.circle(image, (cx2, cy2), 10, (0,255,0), -1)
-                    cv2.circle(image, (fpt_x, fpt_y), 10, (0,0,0), -1)
+                    cv2.circle(image, (cx1, cy1), 10, (0,255,255), -1)
+                    cv2.circle(image, (cx2, cy2), 10, (255,255,255), -1)
+                    cv2.circle(image, (fpt_x, fpt_y), 10, (128,128,128), -1)
 
                     err = w/2 - fpt_x
 
