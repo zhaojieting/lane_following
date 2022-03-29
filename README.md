@@ -33,4 +33,4 @@ This is the lab resources for SUSTech EE346.
    
    rosrun lane_following lane_following.py
 
- ![image](https://github.com/zhaojieting/linefollowing/blob/main/data/demo.png)
+ ![image](https://github.com/zhaojieting/linefollowing/blob/main/data/demo.gif)
