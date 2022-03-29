@@ -20,7 +20,7 @@ This is the lab resources for SUSTech EE346.
    
    roslaunch lane_following lane_following.launch 
 
-## 6. Run lane following python node
+## 5. Run lane following python node
    
    cd ~/catkin_ws/src/lane_following/scripts/
    
